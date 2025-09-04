@@ -57,7 +57,7 @@ Make sure you have installed:
 ### 2. Clone the Repository  
 If using GitHub:  
 ```bash
-git clone https://github.com/YOUR-USERNAME/EmoteJournal.git
+git clone https://github.com/isaacIU/EmoteJournal.git
 cd EmoteJournal
 ```
 
