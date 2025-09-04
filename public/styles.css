@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+  background-color: #ffffff; /* White background */
+  font-family: Arial, sans-serif; /* Default font across the app */
+}
+
+/* The main app container */
+.app-container {
+  max-width: 900px; /* Keep content from getting too wide on big screens */
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #a3e2f1; /* Light blue background */
+  border: 2px solid black; /* Black outline */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Soft shadows */
+}
+
+/* Top title section */
+.top-section {
+  background-color: #ffffff; /* White background */
+  padding: 1.5rem; /* Inner spacing */
+  border-radius: 15px; /* Rounded edges */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);/* WSoft shadows */
+  margin-bottom: 2rem; /* Slightly bigger space between header & main blocks */
+  text-align: center; /* Center the header text */
+}
+
+/* Bubbles for main blocks, each content section */
+.bubble {
+  background-color: #ffffff; /* White background */
+  border-radius: 15px; /* Rounded edges */
+  padding: 20px; /* Inner spacing */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Soft shadows */
+}
+
+/* Emoji spacing for timeline */
+#emoji-timeline {
+  word-spacing: 10px; /* Add spacing between emoji so they don't touch */
+}
+
+/* Journal entry spacing and border */
+#journal-entries .entry {
+  margin-bottom: 15px; /* Space between each entry */
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1rem; /* Reduce padding to save space */
+  }
+
+  .top-section h1 {
+    font-size: 1.5rem; /* Make the title smaller on small screens */
+  }
+
+  .bubble {
+    padding: 15px; /* Reduce padding inside sections */
+  }
+}
